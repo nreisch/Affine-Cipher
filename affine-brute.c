@@ -14,7 +14,7 @@ int main(int argc, char ** argv) {
 	 //if( argc>1) shift = atoi(argv[1]);
 	 //if( argc>2) mult = atoi(argv[2]);
 	 int alphabet[26];
-	 int primes[] = {
+	 int factors[] = {
 	 	1, 3, 5, 7, 9, 11, 15, 17, 19, 21, 23, 25
 	 };
 	 
@@ -22,7 +22,7 @@ int main(int argc, char ** argv) {
 
 	 int i = 0, j = 0;
 	 for(;i<12;i++) {
-	 	mult = primes[i];
+	 	mult = factors[i];
 	 	j = 0;
 	 while(j<26) {
 	 	shift = j;
